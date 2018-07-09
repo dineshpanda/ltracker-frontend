@@ -86,7 +86,7 @@ import AuthenticationService from '../services/AuthenticationService';
                 ],
 
                 confirmPasswordRules: [
-                    confirmPassword => !!confirmPassword || 'This field can not be left blank.'
+                    confirmPassword => !!confirmPassword || 'This field is required.'
                 ],
 
                 firstnameRules: [
