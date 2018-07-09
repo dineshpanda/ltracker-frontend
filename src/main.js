@@ -2,10 +2,11 @@ import Vue from 'vue';
 import App from './App.vue';
 import VueRouter from 'vue-router';
 import routes from './routes';
-import Veutify from 'vuetify';
 import 'vuetify/dist/vuetify.min.css'
 import Vuetify from 'vuetify';
 import store from './store/store';
+// index.js or main.js
+import 'vuetify/dist/vuetify.min.css' // Ensure you are using css-loader
 
 Vue.use(VueRouter);
 Vue.use(Vuetify);
